@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Janelle Tecson</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" /> 
+  </head>
+  
+  
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+        <a
+          class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-gray w3-large w3-white"
+          href="javascript:void(0);"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a
+          href="index.html"
+          class="w3-bar-item w3-button w3-padding-large w3-black home-button"
+          >Janelle Tecson</a
+        >
+        <div class="w3-navbar-right">
+          <a
+            href="index.html#gallery"
+            class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+            >Work</a
+          >
+          <a
+            href="https://medium.com/@jantecson30"
+            class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+            target="_blank"
+            >Blog</a
+          >
+          <a
+            href="about.html"
+            class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+            >About</a
+          >
+              <a
+            href="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/JanelleTecson_Resume_25.pdf?v=1727193786685" target="_blank" style="text-decoration:none;" 
+            class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+            >Resume</a
+          >
+        </div>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div
+        id="navDemo"
+        class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"
+      >
+        <a href="index.html#gallery" class="w3-bar-item w3-button w3-padding-large">Work</a>
+        <a
+          href="https://medium.com/@jantecson30"
+          class="w3-bar-item w3-button w3-padding-large"
+          target="_blank"
+          >Blog</a
+        >
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+              <a
+            href="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/JanelleTecson_Resume_25.pdf?v=1727193786685" target="_blank" style="text-decoration:none;" 
+            class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+            >Resume</a
+          >
+        
+      </div>
+  
+       <nav class="w3-large vertical-nav">
+    <ul>
+        <li><a href="ecospin.html#ecospin">EcoSpin</a></li>
+        <li><a href="ecospin.html#overview">Overview</a></li>
+        <li><a href="ecospin.html#research">Research</a></li>
+        <li><a href="ecospin.html#prototyping">Prototyping</a></li>
+        <li><a href="ecospin.html#revisions">Revisions </a></li>
+        <li><a href="ecospin.html#finalprototype">Final Prototype</a></li>
+        <li><a href="ecospin.html#reflection">Reflection</a></li>
+    </ul>
+</nav>   
+      
+    </div>
+
+    <div class="w3-container w3-white w3-center" style="padding-top: 128px">
+      <div id="ecospin"> </div>
+      <div class="image-container">
+        <img
+          id="ecospin-cover-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/ecospincover4.jpg?v=1704320893033"
+          alt="ecospin-cover-picture"
+        />
+      </div>
+      <div class="w3-half w3-padding">
+        <div class="w3-xxxlarge" style="text-align: center">
+          <b> Ford's EcoSpin </b>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-padding w3-container aligned-container w3-light-grey">
+      <div>
+        <h5 class="content-words">
+          An innovative physical and digital e-bike interface that incorporates
+          level 3 autonomy for an improved biker experience.
+          <br />
+          As a team of 5, we created a simple yet powerful solution that would
+          revolutionize the e-bike domain.
+        </h5>
+        <br />
+        <div class="content-words">
+          <h5>
+            <div class="w3-quarter">
+              <b>Role</b>
+              <br />
+              UX Researcher
+            </div>
+
+            <div class="w3-quarter">
+              <b>Project</b>
+              <br />
+              Interaction Design Studio
+            </div>
+
+            <div class="w3-quarter">
+              <b>Timeline</b>
+              <br />
+              Six Weeks
+            </div>
+
+            <div class="w3-quarter">
+              <b>Tools</b>
+              <br />
+              Figma, FigJam, Miro
+            </div>
+          </h5>
+          <br />
+          <br />
+                <div id="overview"> </div>
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <!-- OVERVIEW -->
+
+    <div class="w3-white">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b> Overview </b>
+        </div>
+      </div>
+      <br />
+      <div class="content-words w3-center">
+        <h5>
+          Our project is focused on exploring new controls and paradigms for an
+          automated Ford electric bike. Level 3 automation can require a human
+          driver to take over quickly, in ambiguous or dangerous situations. At
+          the start of the project, we research existing conventions for bikes
+          and transportation dashboards, building a frame of reference for the
+          digital aspects to be integrated into. We focused on specific tasking
+          items that were relevant and realistic for typical use cases:
+          prioritizing user interaction with turning on and off auto mode,
+          checking the speed of the bike, and being able to safely navigate.
+        </h5>
+        <br />
+      </div>
+      <div class="content-words w3-xxlarge">
+        <b>Design Process </b>
+      </div>
+      <div class="smaller-image">
+        <img
+          id="double-diamond-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/doublediamond2.jpg?v=1704326337198"
+        />
+      </div>
+            <div id="research"> </div>
+      <h5 class="content-words w3-center">
+        We used the double diamond process to help guide us throughout the
+        project timeline
+      </h5>
+    </div>
+
+    <!-- RESEARCH   -->
+
+    <div class="w3-padding w3-container aligned-container w3-light-grey">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b> Research </b>
+        </div>
+        <br />
+        <div class="w3-xlarge w3-left-align">
+          <b> Guerilla Research </b>
+        </div>
+      </div>
+      <div class="content-words w3-left-align">
+        <h5>
+          To begin preliminary research, we conducted Guerilla Research at two
+          POGOH E-Bike stations.This involved us walking to nearby strangers or
+          those who were parking and taking bikes from the station
+        </h5>
+      </div>
+      <div class="medium-image">
+        <img
+          id="guerilla-research-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/ecospinpic1.jpg?v=1704333245842"
+        />
+      </div>
+
+      <h5 class="content-words w3-center">
+        This gave us critical insights into the bikers' inner thoughts
+      </h5>
+
+      <br />
+    </div>
+
+    <div class="w3-padding w3-container aligned-container w3-white">
+      <div class="w3-padding content-words">
+        <div class="w3-xlarge w3-left-align">
+          <b> Affinity Diagram </b>
+        </div>
+        <br />
+      </div>
+      <div class="smaller-image">
+        <img
+          id="ecospin-insights-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/ecospininsights.jpg?v=1704333971803"
+        />
+      </div>
+      <br />
+    </div>
+
+    <div class="w3-padding w3-container aligned-container w3-dark-gray">
+      <div class="w3-padding content-words">
+        <div class="w3-xlarge w3-left-align">
+          <b> Pain Points </b>
+        </div>
+      </div>
+
+      <div class="w3-twothird">
+        <h5 class="content-words">
+          <br />
+          ○ " I want the digital interface to include navigation "
+          <br />
+          ○ " I would like physical feedback from the bike itself "
+          <br />
+          ○ " I want to feel safe when biking "
+          <br />
+          ○ " The dashboard can display more items "
+          <br />
+          ○ " I want the app to give me more direct feedback "
+          <br />
+          ○ " I don’t ride the bike for too long "
+        </h5>
+      </div>
+
+      <div class="w3-third anotha-image w3-left-align">
+        <br />
+        <img
+          id="just-a-guy-pic"
+          style="border-radius: 0.75rem"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/6760dd1c-4a00-45fe-9025-89636e177035.image.png?v=1704334502138"
+        />
+      </div>
+    </div>
+
+    <div class="w3-container aligned-container w3-white">
+      <div class="w3-padding content-words">
+        <div class="w3-xlarge w3-left-align">
+          <b> Task Analysis </b>
+        </div>
+      </div>
+      <h5 class="content-words w3-left-align">
+        <br />
+        Our task analysis involved us first listing out the necessary components
+        for Ford’s Level 3 Autonomy. We then ranked these tasks using a bullseye
+        diagram to determine the most important tasks (bullseye of the target)
+        <br /><br />
+        This challenged us as we felt constrained by the little space we had in
+        the bullseye. We reflected on our own experiences, our interviews, and
+        the background research we performed on the bikes.
+        <br /><br />
+        From those insights, we were able to communicate about where each task
+        should go
+      </h5>
+
+      <div>
+        <div class="w3-third bulls-image">
+          <img
+            id="bullseye-pic"
+            src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/ecospinbullseyepic.jpg?v=1704337205179"
+          />
+        </div>
+        <div class="w3-third taskone-image">
+          <img
+            id="taskanal1-pic"
+            src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/taskanal1.jpg?v=1704337399612"
+          />
+        </div>
+
+        <div class="w3-third tasktwo-image">
+          <img
+            id="taskanal2-pic"
+            src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/taskanal2.jpg?v=1704337402308"
+          />
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <h5 class="content-words w3-center">
+        All of our work culminated to storyboarding flows to demonstrate how our
+        users would interact with our proposed solutions. We showed possible
+        processes through showing the context, problem, our solution, and the
+        resolution
+      </h5>
+
+      <div class="w3-half taskone-image w3-right-align">
+        <img
+          id="storyboard1-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/storyboard1.jpg?v=1704337404918"
+        />
+      </div>
+
+      <div class="w3-half bulls-image w3-left-align">
+        <br />
+        <img
+          id="storyboard2-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/storyboard2.jpg?v=1704337407722"
+        />
+              <div id="prototyping"> </div>
+      </div>
+    </div>
+
+    <!-- PROTOTYPING -->
+
+    <div class="w3-container aligned-container w3-light-gray">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b> Prototyping </b>
+        </div>
+      </div>
+      <h5 class="content-words w3-left-align">
+        Over the course of four weeks, my team and I brainstormed, prototyped,
+        user tested, and refined our different prototypes of the physical and
+        digital interfaces of the E-bike
+      </h5>
+      <br />
+      <div class="content-words w3-xlarge">
+        <b>The Physical Prototype</b>
+      </div>
+      <h5 class="content-words w3-left-align">
+        We first sketched a physical prototype of the E-bike with appropriate
+        measurements based on the Semi-Autonomous Vehicle Requirements.
+      </h5>
+      <br />
+      <div class="smaller-image">
+        <img
+          id="dimensions1-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/dimensionspic1.jpg?v=1704341200085"
+        />
+      </div>
+
+      <h5 class="content-words w3-left-align">
+        Based on these measurements, we began building our physical prototype.
+        There were several requirements we had to meet for our prototype.
+        However, throughout our process, the general shape of the physical
+        prototype stayed the same
+      </h5>
+    </div>
+
+    <div class="w3-container aligned-container w3-white">
+      <div class="w3-half tasktwo-image w3-right-align">
+        <img
+          id="initialpro1-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/initialphysical1.jpg?v=1704341508189"
+        />
+      </div>
+      <br />
+      <div class="w3-half tasktwo-image w3-left-align">
+        <img
+          id="finalpro1-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/finalphysical1.jpg?v=1704341505846"
+        />
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <h5 class="content-words">
+        <br />
+        <br />
+        <br />
+        From our <b> usability testing</b>, we improved the following features
+        for our final prototype:
+        <br />
+        ○&emsp;Added more user-friendly brakes
+        <br />
+        ○&emsp;Adjusted the Power-on/off buttons to make them more noticeable
+        <br />
+        ○&emsp;Added an icon to the physical bell to illustrate its function
+        <br />
+        ○&emsp;Replaced the confusing physical microphone with an icon presented
+        on the dashboard that aligns with the camera
+        <br />
+        ○&emsp;Removed physical buttons for auto mode ( presented directly in
+        the dashboard)
+        <br />
+        <br />
+        <br />
+      </h5>
+    </div>
+
+    <div class="w3-container aligned-container w3-light-gray">
+      <div class="w3-padding content-words">
+        <div class="w3-xlarge w3-left-align">
+          <b> The Paper Prototype </b>
+        </div>
+      </div>
+
+      <div class="w3-half taskone-image w3-right-align">
+        <img
+          id="paperproto1-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/paperproto1.jpg?v=1704342670454"
+        />
+      </div>
+
+      <div class="w3-half tasktwo-image w3-left-align">
+        <img
+          id="paperproto2-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/paperproto2.jpg?v=1704342672825"
+        />
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <h5 class="content-words w3-left-align">
+        We made our initial paper prototype based on the requirements outlined
+        for us in the given assignment. During <b> user testing</b>, we received
+        a lot of feedback:
+        <br />
+        ○&emsp;It was confusing to go from the on state to the off state of Auto
+        Mode because it didn't make sense to click "Auto On" to turn it off
+        <br />
+        ○&emsp;Users don't know what to do next after the system reports an
+        error.
+        <br />
+        ○&emsp;“When I see the error reported, I don't know what else I'm
+        supposed to do but stop.”
+        <br />
+        ○&emsp;Users didn't notice the turn signal function / didn't know what
+        the two arrows were for
+        <br />
+        ○&emsp;The users thought the arrows would take them to another screen
+
+        <br /><br /><br />
+      </h5>
+    </div>
+
+    <div class="w3-container aligned-container w3-white">
+      <div class="w3-padding content-words">
+        <div class="w3-xlarge w3-left-align">
+          <b>The Digital Prototype [Default Manual Biking State]</b>
+        </div>
+      </div>
+      <br />
+      <h5 class="content-words w3-left-align">
+        Durning this stage of our process, we converted our paper prototype
+        alongside the feedback we received into a digital prototype
+      </h5>
+      <h5 class="content-words w3-left-align">
+        <div class="w3-half">
+          <br />
+          <br />
+          <br />
+          ○&emsp;Used a grid system to organize our layout
+          <br />
+          ○&emsp;Prioritizing the automode on/off feature
+          <br />
+          ○&emsp;Limiting dashboard functions to discourage users from
+          interacting with it unnecessarily during rides
+          <br />
+          ○&emsp;Exploring notification displays for slowing down
+          <br />
+        </div>
+      </h5>
+
+      <div class="w3-half image-container w3-left-align">
+        <img
+          id="grid-total-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/gridtotal1.jpg?v=1704343486909"
+        />
+      </div>
+    </div>
+
+    <div class="w3-container aligned-container w3-light-gray">
+      <div class="w3-padding content-words">
+        <div class="w3-xlarge w3-left-align">
+          <b>The Digital Prototype [UI Choices]</b>
+        </div>
+      </div>
+
+      <h5 class="content-words w3-left-align">
+        <div class="w3-half">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          ○&emsp;We used <b>orange</b> to indicate that automode was turning off
+          to indicate to the user that they needed to manually take control.
+          <br />
+          ○&emsp;We used <b>green</b> at the start screen to indicate that the
+          bike was good to use and also when a system error was resolved (to
+          resume riding).
+          <br />
+          ○&emsp;All other parts of the dashboard were monochrome so any colored
+          notification would stand out immediately.
+          <br />
+          ○&emsp;Note: the physical prototype includes speakers that can audibly
+          notify the user
+          <br />
+        </div>
+      </h5>
+      <div class="w3-half w3-left-align image-container">
+        <img
+          id="UI-choices-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/UIchoicespic.jpg?v=1704344168531"
+        />
+      </div>
+    </div>
+<div id="revisions"> </div>
+    <div class="w3-container aligned-container w3-white">
+      
+      <div class="w3-padding content-words">
+        
+        <div class="w3-xlarge w3-left-align">
+          <b>The Digital Prototype [Revisions]</b>
+        </div>
+      </div>
+
+      <h5 class="content-words w3-left-align">
+        <div class="w3-half">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          3 Main feedback points from usability testing:
+          <br />
+          ○&emsp;<b>Orange</b> indicator is alarming: users initially thought
+          this meant there was a system error
+          <br />
+          ○&emsp;Phone stand is <b>too far</b> for user to see phone screen:
+          leads to lack of navigation ability
+          <br />
+          ○&emsp;User check on the right side is
+          <b>unnecessary</b> since it it grey and static most of the time.
+          <br />
+        </div>
+      </h5>
+
+      <div class="w3-half medium-image">
+        <img
+          id="first-user-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/userfeedback1.jpg?v=1704345311991"
+        />
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h5 class="content-words w3-left-align">
+        Given the feedback from our usability test, we implemented the
+        following:
+        <br />
+        ○&emsp;Blue (Ford brand) colors for slowing down indication
+        <br />
+        ○&emsp;Navigation system similar to apple carplay
+        <br />
+        <br />
+      </h5>
+
+      <div class="w3-half w3-right-align tasktwo-image">
+        <img
+          id="first-revisions-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/revisions1.jpg?v=1704345610352"
+        />
+      </div>
+      <br />
+      <br />
+      <br />
+      <div class="w3-half w3-left-align tasktwo-image">
+        <img
+          id="first-revisions-two-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/revisions2.jpg?v=1704345969873"
+        />
+      </div>
+    </div>
+
+    <div class="w3-container aligned-container w3-dark-gray">
+      <div class="w3-padding content-words">
+        <div class="w3-xlarge w3-left-align">
+          <b
+            >Including a navigation system inevitably added another layer of
+            complexity to our screen</b
+          >
+        </div>
+        <h5>
+          <br />
+          Since we wanted the map to be enlarged for readability at certain
+          points of navigation, we also had to incorporate changes for the rest
+          of the layout of the screen.
+          <br />
+          <br />
+          Some of the questions we had before our second round of usability
+          testing was:
+          <br />
+          ○&emsp;When should the map be enlarged?
+          <br />
+          ○&emsp;Should manual vs auto-mode correlate with expanding the map?
+          <br />
+          ○&emsp;Or should navigation vs non-navigation?
+          <br />
+          ○&emsp;Should users be able to interact with the map during a ride or
+          only able to start/exit navigation?
+          <br />
+        </h5>
+      </div>
+    </div>
+
+    <div class="w3-container aligned-container w3-white">
+      <div class="w3-padding content-words">
+        <div class="w3-xlarge w3-left-align">
+          <b>The Digital Prototype [Second Revisions]</b>
+        </div>
+      </div>
+
+      <h5 class="content-words w3-riht-align">
+        <div class="w3-half">
+          <br />
+          <br />
+          <br />
+          <br />
+          <b>From our second usability test, we gathered:</b>
+          <br />
+          ○&emsp;People prefer large maps all the time while they are biking.
+          <br />
+          ○&emsp;Even if they are in the auto mode driving, they want the map to
+          stay larger.
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <b>We then made the following changes to our navigation system: </b>
+          <br />
+          ○&emsp;The map will be the same size for both auto and manual driving
+          conditions.
+          <br />
+          ○&emsp;Users will not be able to adjust the map's size while biking
+          due to safety concerns.
+          <br />
+        </div>
+      </h5>
+      <div class="w3-half medium-image w3-left-align">
+        <img
+          id="second-user-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/userfeedback2.jpg?v=1704347410064"
+        />
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <h5 class="content-words w3-left-align">
+        <b
+          >We also changed our error check mark on the screen since users tend
+          to get closer to the screen to see the reported error.
+        </b>
+        <br />
+        ○&emsp;Initially, we kept the error reason like “Damaged brake” under
+        the red rectangles.
+        <br />
+        ○&emsp;After revision, the error configuration process will be shown in
+        the red rectangle so the user can see how the system checks the error.
+        This can eliminate their panic as well.
+      </h5>
+      <div class="w3-half w3-right-align more-image">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <img
+          id="second-revisions-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/revisions3.jpg?v=1704347760112"
+        />
+      </div>
+      <div class="w3-half w3-left-align more-image">
+        <img
+          id="second-revisions-two-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/revisions4.jpg?v=1704347757334"
+        />
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <h5 class="content-words w3-left-align">
+        <b
+          >Our last change was displaying the turning signal because of the
+          added navigation.</b
+        >
+        According to the second user test, people will focus more on the
+        dashboard since they must look at the navigation.
+        <br />
+        ○&emsp;Initially, the turning signal will directly be the button itself
+        by blinking.
+        <br />
+        ○&emsp;After the revision, the turning signal will be added to the
+        dashboard so that people don’t need to pay extra attention to the
+        turning buttons. They only need to focus their attention on the
+        dashboard.
+        <br />
+        <br />
+      </h5>
+    </div>
+
+     <div class="w3-container aligned-container w3-light-gray">
+      <div class="w3-padding content-words">
+        <div class="w3-xlarge w3-left-align">
+          <b>The App Homescreen Prototype</b>
+        </div>
+      </div>   
+      <h5 class="content-words w3-left-align">
+        <div class="w3-half">
+          <br />
+          <br />
+          ○&emsp;Initially, we approached the home screen by thinking of the
+          e-bike as a shared bike. Therefore, we value the “Map” feature more
+          than “Profile” since users need to look for shared bikes to use.
+          <br />
+          <br />
+          ○&emsp;After group discussion and evaluation of Ford company, we
+          decided to consider our bike a personal bike that would only be used
+          by the person who bought it. Therefore, we value the “Profile” feature
+          more than other features so that users can always be clear about the
+          general setting of their bikes.
+          <br />
+          <br />
+          ○&emsp;As a result, we made the profile page the app's home screen
+          instead of the map page. However, users can still get to the map
+          section by switching to the map icon at the bottom.
+          <br />
+        </div>
+      </h5>
+      <div class="w3-half w3-left-align medium-image">
+        <img
+          id="homescreen-pic"
+          src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/homescreen1.jpg?v=1704348118751"
+        />
+      </div>
+    </div>
+
+    
+    
+     <div class="w3-container aligned-container w3-white">
+  <div id="finalprototype"> </div>
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b>Our Final Prototype</b>
+        </div>
+      </div>  
+      <br />
+      <br />
+      <div class="w3-center medium-image">
+      <img
+        id="final-ecospin-pic"
+        src="https://cdn.glitch.global/0f899bad-d573-46d1-91dc-08859d89201a/finalecospin.jpg?v=1704348548792"
+      />
+      </div>
+      <br />
+      <br />
+      <h4 class="content-words w3-center">
+        <b
+          ><a
+            href="https://www.figma.com/proto/gNropggj1sPWNurxyZEf6p/E-Bike-Digital-Prototype?page-id=90%3A2802&type=design&node-id=470-471&viewport=660%2C264%2C0.05&t=Tg0XA225zyNpbrDz-1&scaling=scale-down&starting-point-node-id=470%3A402&show-proto-sidebar=1&mode=design"
+            style="color: black"
+              target="_blank"
+          >
+            Figma Prototype Link
+          </a></b
+        >
+        <br />
+      </h4>
+    </div>
+
+     <div class="w3-container aligned-container w3-white">
+       <div id="reflection"> </div>
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b>Reflection</b>
+        </div>
+       </div>
+        
+      <h5 class="content-words w3-left-align">
+        Throughout this assignment, I learned about more user research tactics
+        (guerilla research, task analysis, etc.) and different types of design
+        principles (Gestalt principles, information architecture, unity, etc.).
+        The process of doing research and further making a physical product with
+        interactive components gave me valuable insights that I can use in
+        future projects.
+        <br />
+        <br />
+        I would like to thank the instructors of Interactions Design Studio for
+        supporting my team throughout this process. I'm most thankful for my
+        teammates for their dedication and hard work they put into this project.
+        Without them, this would have not been possible.
+        <br />
+        <br />
+        Thank you for reading!
+      </h5>
+    </div>
+
+    <!--  footer to be placed at end of every page    -->
+   <footer class="w3-container w3-padding-64 w3-center w3-black">
+      <div class="w3-xlarge w3-padding-32">
+            <a
+              href="https://www.linkedin.com/in/janelle-tecson/"
+              target="_blank"
+              ><i class="fa fa-linkedin w3-hover-opacity"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/ejectorcrabband/"
+              target="_blank"
+              ><i class="fa fa-instagram w3-hover-opacity"></i
+            ></a>
+      </div>
+      <p>
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+
+  </body>
+</html>
+
+
