@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Janelle Tecson</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+        <a
+          class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-gray w3-large w3-white"
+          href="javascript:void(0);"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a
+          href="index.html"
+          class="w3-bar-item w3-button w3-padding-large w3-black home-button"
+          >Janelle Tecson</a
+        >
+        <div class="w3-navbar-right">
+          <a
+            href="index.html#gallery"
+            class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+            >Work</a
+          >
+          <a
+            href="https://medium.com/@jantecson30"
+            class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+            target="_blank"
+            >Blog</a
+          >
+          <a
+            href="about.html"
+            class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+            >About</a
+          >
+          <a
+            href="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/JanelleTecson_Resume_25.pdf?v=1727193786685"
+            target="_blank"
+            style="text-decoration: none"
+            class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+            >Resume</a
+          >
+        </div>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div
+        id="navDemo"
+        class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"
+      >
+        <a
+          href="index.html#gallery"
+          class="w3-bar-item w3-button w3-padding-large"
+          >Work</a
+        >
+        <a
+          href="https://medium.com/@jantecson30"
+          class="w3-bar-item w3-button w3-padding-large"
+          target="_blank"
+          >Blog</a
+        >
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large"
+          >About</a
+        >
+        <a
+          href="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/JanelleTecson_Resume_25.pdf?v=1727193786685"
+          target="_blank"
+          style="text-decoration: none"
+          class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+          >Resume</a
+        >
+      </div>
+    </div>
+
+    <nav class="w3-large vertical-nav">
+      <ul>
+        <li><a href="championshares.html#championshares">ChampionShares</a></li>
+        <li><a href="championshares.html#overview">Overview</a></li>
+        <li><a href="championshares.html#background">Background</a></li>
+        <li><a href="championshares.html#storyboarding">Storyboarding</a></li>
+        <li>
+          <a href="championshares.html#finalprototype">Final Prototype</a>
+        </li>
+        <li><a href="championshares.html#reflection">Reflection</a></li>
+      </ul>
+    </nav>
+
+    <div class="w3-container w3-white w3-center" style="padding-top: 128px">
+      <div id="championshares"></div>
+      <div class="image-container">
+        <img
+          id="championshares-cover-pic"
+          style="border-radius: 0.75rem"
+          src="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/championshares_coverrrr.png?v=1725940667547"
+          alt="championshares cover pic"
+        />
+      </div>
+      <div class="w3-half w3-padding">
+        <div class="w3-xxxlarge" style="text-align: center">
+          <b> ChampionShares </b>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-padding w3-container aligned-container w3-light-grey">
+      <div>
+        <h5 class="content-words">
+          Over the summer of 2023, me and a team of 5 researchers wanted to
+          determining how to help improve the social equity and inclusivity of
+          the Riot Games playerbase community. This includes making cosmetics
+          more easily accessible to players that have limited access and trying
+          to uplift the community such that Riot Games is no longer synonymous
+          with toxic communities in their games.
+        </h5>
+        <br />
+        <div class="content-words">
+          <h5>
+            <div class="w3-quarter">
+              <b>Role</b>
+              <br />
+              UX Researcher
+            </div>
+
+            <div class="w3-quarter">
+              <b>Project</b>
+              <br />
+              ENAiBLE x SURA
+            </div>
+
+            <div class="w3-quarter">
+              <b>Timeline</b>
+              <br />
+              Twelve Weeks
+            </div>
+
+            <div class="w3-quarter">
+              <b>Tools</b>
+              <br />
+              Figma, FigJam, Miro, Traditional tools, League of Legends
+            </div>
+          </h5>
+          <br />
+          <br />
+          <div id="overview"></div>
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <!-- OVERVIEW -->
+
+    <div class="w3-white">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b> Overview </b>
+        </div>
+      </div>
+      <div class="content-words w3-left-align">
+        <h4>
+          <b>
+            How can Riot Games enhance its features and cosmetic content to
+            create a more positive community environment while also addressing
+            broader industry challenges such as sustainability and data privacy?
+          </b>
+        </h4>
+        <h5>
+          We aim to gather feedback from the player community on the types of
+          features and cosmetic content they would like to see added or removed
+          in Riot Games. This will help us foster a more positive and less toxic
+          environment. By collaborating with Riot Games, we are committed to
+          delivering high-quality experiences while prioritizing the well-being
+          of both people and the planet. In today's retail and service
+          industries, companies face increasing demands to offer more
+          personalized, convenient, and value-driven products and services, all
+          while addressing global challenges like sustainability, data privacy,
+          and social and economic equity.
+        </h5>
+      </div>
+      <div class="content-words w3-left-align">
+        <h4>
+          <b> Why Games? </b>
+        </h4>
+        <h5>
+          Coincidentally, everyone in my team enjoyed playing games, especially
+          games made by Riot Games. We all decided, as a joke, to do our
+          research on Riot, specifically on League of Legends and Valorant.
+          Unbeknownst to us, it would lead us to powerful insights and drive me
+          to learn more about the gaming community.
+        </h5>
+
+        <br />
+        <h4>
+          <b> . . . And Why Cosmetic Skins? </b>
+        </h4>
+        <h5>
+          Cosmetic skins server several important purposes, making them a
+          valuable addition to the gaming experience. This includes
+          self-expression, status and achievement, support for the game the
+          creators, and a sense of identity and engagement.
+        </h5>
+      </div>
+
+      <!-- Hypothesis -->
+
+      <div class="content-words w3-xxlarge">
+        <b> Our Research Hypothesis </b>
+      </div>
+      <div class="medium-image">
+        <img
+          style="
+            border-radius: 0.75em;
+            border-color: #5f607a;
+            border-style: solid;
+          "
+          src="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/championshares_spreadsheet.png?v=1724261004321"
+        />
+      </div>
+      <h5 class="content-words w3-left-align">
+        Initially, our focus was solely on the cosmetic designs themselves.
+        However, after interviewing Riot Games players, we realized we could
+        expand our hypothesis by exploring how players could share their skins
+        with one another to enhance social equity within the player base.
+        <br />
+        <br />
+        After discussing our findings with our supporting professor, Raelin
+        Musucara, we identified a challenge: our skin-sharing system didn't
+        account for how Riot Games would generate profit from this
+        implementation. This posed a significant difficulty, as our goal was to
+        assist players who have limited time and financial resources. To address
+        this, we evolved our approach to include offering discounts, enabling
+        players to afford their own skins.
+        <br />
+        <br />
+        <div id="background"></div>
+        Reflecting on our research, it’s clear how much our ideas have evolved.
+        We shifted from focusing on individual player support through skins to
+        fostering a system where veteran players can assist novice players. Our
+        solution ultimately benefits both the community and Riot Games, creating
+        a positive and inclusive environment for all.
+      </h5>
+    </div>
+
+    <div class="w3-padding w3-container aligned-container w3-light-grey">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b>Background Research & Understanding Gamers </b>
+        </div>
+        <br />
+      </div>
+      <div class="content-words w3-left-align">
+        <h5>
+          From gathering observational research (watching people play League of
+          Legends) and experimental research (playing League of Legends), we
+          created a board that started with just our initial thoughts. We then
+          clustered them into bigger and overarching ideas that summarized the
+          user experience well.
+          <br />
+          <br />
+          As a result of careful observation and experimentation from each of
+          us, we were able to create multiple clusters of different consumer
+          behaviors. This primarily revolve around their interactions with the
+          in-game service, weapon skins, and their relative performance based on
+          game and player interaction. By the end of the process, it was
+          generally true that skins affected the players’ performance and how
+          they interact with other parts of the game (teammates, enemy members,
+          others skins, etc), whether it improved or worsened their
+          game-experience. This was also generally true throughout varying
+          different skill levels of players.
+        </h5>
+      </div>
+      <div class="medium-image">
+        <img
+          style="
+            border-radius: 0.75em;
+            border-color: #5f607a;
+            border-style: solid;
+          "
+          src="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/championshares_clusters.png?v=1724260563805"
+        />
+      </div>
+
+      <br />
+    </div>
+
+    <div class="w3-padding w3-container aligned-container w3-white">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b> The Gamer Persona </b>
+        </div>
+        <br />
+      </div>
+      <div class="content-words w3-left-align">
+        <h5>
+          In this analysis, I explored the League of Legends player persona
+          within the Riot Games community, identifying key behavioral patterns
+          and user needs. Players consistently experience community toxicity,
+          yet they engage socially, valuing interactions and the shared
+          experience of gameplay. There is a strong desire for a more rewarding
+          game experience, particularly through improved aesthetics and a wider
+          variety of cosmetic options. Communication and positivity within the
+          community are also critical areas of focus.
+          <br /><br />
+          However, distinct differences emerged among players. Casual players
+          tend to have lower investment levels and prioritize inclusivity, often
+          refusing to engage in toxic behavior, whereas others seek competitive
+          play and enjoy showcasing their achievements through cosmetics. The
+          perception of the Riot Games ecosystem also varies; while some players
+          feel represented and enjoy the competitive environment, others express
+          dissatisfaction and may consider discontinuing play.
+          <br />
+        </h5>
+      </div>
+      <div class="medium-image">
+        <img
+          style="
+            border-radius: 0.75em;
+            border-color: #5f607a;
+            border-style: solid;
+          "
+          src="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/championshares_personas.png?v=1724261694864"
+        />
+      </div>
+      <br />
+      <div class="content-words w3-left-align">
+        <h5>
+          Overall, this persona is heavily influenced by community dynamics,
+          cosmetic enhancements, and in-game interactions. The insights gained
+          highlight the need for Riot Games to address varying player
+          motivations and concerns, particularly around toxicity, communication,
+          and personal gratification, to enhance the overall user experience.
+        </h5>
+        <br />
+      </div>
+    </div>
+
+    <div class="w3-padding w3-container aligned-container w3-light-gray">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b> Customer Journey Mapping </b>
+        </div>
+      </div>
+
+      <div class="content-words w3-left-align">
+        <h5>
+          After developing the gamer persona, I extended the research by
+          creating a customer journey map to gain deeper insights into the
+          player's experience within the Riot Games ecosystem. This mapping
+          process revealed several critical gaps in understanding how to foster
+          a more positive and less toxic community through cosmetic content. Key
+          questions emerged, such as how to bridge the gap between players with
+          differing resources (time and money), how to ensure mutual benefits
+          between these groups, and how Riot Games can simultaneously drive
+          revenue while promoting a positive community atmosphere.
+        </h5>
+        <br />
+      </div>
+      <div class="medium-image">
+        <img
+          style="
+            border-radius: 0.75em;
+            border-color: #5f607a;
+            border-style: solid;
+          "
+          src="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/championshares_map.png?v=1724261943132"
+        />
+      </div>
+      <div class="content-words w3-left-align">
+        <h5>
+          <br />
+          To address these gaps, I proposed a comprehensive plan to gather
+          additional data. This includes designing surveys to capture player
+          preferences and behaviors related to cosmetic purchases, conducting
+          interviews with a diverse range of players—from newcomers to
+          veterans—and reaching out to industry insiders, including Riot Games
+          employees. The goal is to synthesize this data to inform strategies
+          that balance community satisfaction with business objectives, such as
+          the potential introduction of skin exchanges, satisfaction guarantees,
+          or community-driven events. These insights will be crucial in refining
+          the player experience and supporting the broader goals of Riot Games.
+        </h5>
+        <div id="storyboarding"></div>
+        <br />
+      </div>
+    </div>
+
+    <!--     Storyboarding -->
+
+    <div class="w3-container aligned-container w3-white">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b> Storyboarding </b>
+        </div>
+      </div>
+
+      <div class="medium-image">
+        <img
+          style="
+            border-radius: 0.75em;
+            border-color: #5f607a;
+            border-style: solid;
+          "
+          src="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/championshares_storyboards1.png?v=1724263459768"
+        />
+      </div>
+
+      <br />
+      <h5 class="content-words w3-left-align">
+        We began by rapidly brainstorming a wide range of ideas for our
+        application prototype, exploring both practical and highly imaginative
+        concepts. This process allowed us to gain clarity on the direction we
+        should take with our prototype.
+      </h5>
+      <br />
+
+      <div class="medium-image">
+        <img
+          style="
+            border-radius: 0.75em;
+            border-color: #5f607a;
+            border-style: solid;
+          "
+          src="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/championshares_storyboards2.png?v=1724263462970"
+        />
+      </div>
+
+      <br />
+      <h5 class="content-words w3-left-align">
+        Next, each researcher developed two storyboards, resulting in ten total.
+        We then voted on the five most compelling storyboards to move forward
+        with. Based on these, we created low-fidelity prototypes for each
+        application and demonstrated their user flow.
+      </h5>
+      <br />
+
+      <div class="medium-image">
+        <img
+          style="
+            border-radius: 0.75em;
+            border-color: #5f607a;
+            border-style: solid;
+          "
+          src="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/championshares_storyboards3.png?v=1724263671535"
+        />
+      </div>
+
+      <br />
+      <h5 class="content-words w3-left-align">
+        Finally, as a group, we deliberated on which low-fidelity prototype to
+        advance with, ultimately selecting my prototype. The decision was
+        influenced by the incentives my design offered to both inexperienced and
+        experienced players, as well as its demonstrated potential for seamless
+        integration within League of Legends and other Riot Games titles.
+        <br />
+      </h5>
+
+      <div class="medium-image">
+        <img
+          style="
+            border-radius: 0.75em;
+            border-color: #5f607a;
+            border-style: solid;
+          "
+          src="https://cdn.glitch.global/52edf5f0-0b73-49d9-8fa2-4d4c2e795bf1/championshares_storyboards4.png?v=1724263674109"
+        />
+      </div>
+
+      <br />
+      <h5 class="content-words w3-left-align">
+        With this final low-fidelity prototype, we created a list of notes for
+        improving this prototype and implementing it within our high-fidelity
+        prototype
+        <br />
+        <div id="finalprototype"></div>
+      </h5>
+    </div>
+
+    <div class="w3-container aligned-container w3-light-gray">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b> Our Final Prototype </b>
+        </div>
+      </div>
+      <h5 class="content-words w3-left-align">
+        In assessing our prototype's realism, we focused on several key aspects:
+        <br /><br />
+        <b>Visual Realism:</b> The prototype incorporates authentic screenshots
+        from League of Legends' queuing and matching screens. Our design aligns
+        visually with the game's style, enhancing its authenticity. <br /><br />
+        <b>Interaction Realism:</b> Although we used a Figma prototype to
+        simulate interactions, the experience isn't as refined as we would like
+        due to limitations in modifying the actual game. <br /><br />
+        <b>Breadth:</b> The prototype covers only the initial phase where
+        players queue up, excluding the gameplay itself. It focuses solely on
+        the character and role selection screens. <br /><br />
+        <b>Depth: </b>Users are limited by the Figma prototype's constraints, as
+        they can only interact with the selected characters and cannot
+        experience gameplay beyond the demonstration phase. <br /><br />
+        <b>Content Realism:</b> By utilizing actual gameplay screenshots, our
+        prototype immerses users in a familiar context, providing a realistic
+        sense of how our proposed features would integrate into the League of
+        Legends environment.
+      </h5>
+
+      <div class="w3-center">
+        <div>
+          <h5 class="w3-xlarge">
+            <b> Quick ChampionShares Demo of Both Players </b>
+          </h5>
+        </div>
+        <div class="video-container">
+          <iframe
+            src="https://drive.google.com/file/d/1dtMuNNpsYNEhWMCGPHBl9ApN1kqHTgiA/preview"
+            allow="autoplay"
+            style="border-radius: 0.75em"
+          >
+          </iframe>
+        </div>
+      </div>
+      <h4 class="content-words w3-center">
+        <b
+          ><a
+            href="https://www.figma.com/file/cdM4B4j4McH1IaYFGqKL5Z/Untitled?type=design&node-id=0%3A1&mode=design&t=pfeXbbfBuPEXkNjp-1"
+            style="color: black"
+            target="_blank"
+          >
+            Figma Prototype Link
+          </a></b
+        >
+        <br />
+      </h4>
+      <div id="reflection"></div>
+      <br />
+    </div>
+
+    <div class="w3-container aligned-container w3-white">
+      <div class="w3-padding content-words">
+        <div class="w3-xxlarge w3-left-align">
+          <b>Reflection</b>
+        </div>
+      </div>
+
+      <h5 class="content-words w3-left-align">
+        After this summer, I feel significantly more confident in applying a
+        human-centered design process. My previous experience laid the
+        foundation, but this research has deepened my understanding.
+        Collaborating with my team, Raelin, and our mentors provided valuable
+        insights into initiating and leading a successful research project. This
+        experience has reinforced my passion for pursuing a career in product
+        management, particularly in the gaming industry, where I am eager to
+        engage in more research and development.
+        <br />
+        <br />
+        Thank you for reading!
+      </h5>
+    </div>
+
+    <!--  footer to be placed at end of every page    -->
+    <footer class="w3-container w3-padding-64 w3-center w3-black">
+      <div class="w3-xlarge w3-padding-32">
+        <a href="https://www.linkedin.com/in/janelle-tecson/" target="_blank"
+          ><i class="fa fa-linkedin w3-hover-opacity"></i
+        ></a>
+        <a href="https://www.instagram.com/ejectorcrabband/" target="_blank"
+          ><i class="fa fa-instagram w3-hover-opacity"></i
+        ></a>
+      </div>
+      <p>
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>
+
+
