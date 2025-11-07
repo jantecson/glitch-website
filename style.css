@@ -1,0 +1,686 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.w3-bar,
+button {
+  font-family: "Montserrat", sans-serif; /* Use Montserrat for all text elements */
+}
+
+.fa-anchor,
+.fa-coffee {
+  font-size: 200px;
+}
+
+.w3-jumbo {
+  color: #333;
+}
+
+header.w3-container {
+  padding: 110px 16px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.vertical-nav {
+    position: fixed;
+    top: 50%;
+    right: 40px; /* Adjust as needed to position */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 100; /* Ensure it stays on top */
+}
+
+.vertical-nav ul {
+    padding: 0;
+    margin: 0;
+  list-style: none;
+}
+
+.vertical-nav li {
+    margin: 10px 0;
+}
+
+.vertical-nav a {
+    text-decoration: none;
+    color: black; /* Text color */
+    font-weight: bold;
+    opacity: 0.6; /* Slightly transparent text */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.vertical-nav a:hover {
+    opacity: 1; /* Fully visible on hover */
+}
+
+section {
+    padding: 100px 20px; /* Spacing for each section */
+    min-height: 100vh; /* Make each section take at least full viewport height */
+}
+
+
+
+
+
+.gradient-text {
+  font-size: 3rem; /* Adjust font size as needed */
+  background: linear-gradient(to right, #111111 0%, #366cc2 60%);
+  -webkit-background-clip: text; /* For Safari */
+  -webkit-text-fill-color: transparent; /* For Safari */
+  background-clip: text; /* For other browsers */
+  color: transparent; /* Ensure fallback color */
+}
+
+.w3-content {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to new lines if needed */
+  justify-content: space-between;
+}
+
+.content-container {
+  display: flex;
+  flex: 1; /* Takes full width of parent container */
+}
+
+.content-item {
+  flex: 1; /* Each item takes equal space */
+  margin: 0 10px; /* Optional: Add some spacing between items */
+}
+
+.sourcecode-font {
+  font-family: "Source Code Pro", monospace;
+}
+
+.content-words {
+  text-align: left;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 10px;
+}
+
+.rounded-image {
+  border-radius: 0.75rem; /* Adjust the radius as per your preference */
+}
+
+.image-container,
+.smaller-image,
+.medium-image,
+.anotha-image,
+.bulls-image,
+.taskone-image,
+.tasktwo-image,
+.more-image {
+  text-align: center; /* Center the image horizontally */
+  padding: 20px; /* Add padding around the image */
+}
+
+.image-container img,
+.smaller-image img,
+.medium-image img,
+.anotha-image img,
+.bulls-image img,
+.taskone-image img,
+.tasktwo-image img,
+.more-image img {
+  height: auto; /* Maintain aspect ratio */
+  display: inline-block; /* Center the image in the container */
+}
+
+.image-container img {
+  max-width: 60%;
+}
+
+.smaller-image img {
+  max-width: 30%;
+}
+
+.medium-image img,
+.anotha-image img {
+  max-width: 50%;
+}
+
+.bulls-image img {
+  max-width: 90%;
+}
+
+.taskone-image img {
+  max-width: 80%;
+}
+
+.tasktwo-image img {
+  max-width: 50%;
+}
+
+.more-image img {
+  max-width: 60%;
+}
+
+.aligned-container {
+  padding: 20px; /* Add padding to match the image container */
+  margin-top: 20px; /* Add some space above the container */
+  margin-bottom: 20px;
+}
+
+.specific-notes-header,
+.specific-notes-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.video-container {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30.25%; /* Adjusted aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 55%;
+  width: 100%;
+  background: #000;
+  position: relative;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive-container-two {
+  display: flex; /* Centers the image horizontally */
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Aligns content vertically if height is set */
+}
+
+.responsive-image-two {
+  width: 60%; /* Sets the width of the image to 30% of its container */
+  height: auto; /* Maintains aspect ratio */
+  max-width: 100%; /* Prevents image from overflowing its container */
+}
+
+
+
+.button-beam a {
+  color: black; /* Initial color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s, background-color 0.3s; /* Smooth transition */
+}
+
+
+
+.button-beam a:hover {
+  color: black; /* Changes text color to blue on hover */
+  background-color: #366cc2; /* Optional: Change background color */
+  border-radius: 0.75rem; /* Maintain the border-radius */
+}
+
+
+.contact-info {
+  text-align: right;
+}
+
+.gallery {
+  max-width: 800px;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.gallery-panel {
+  flex: 1;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  cursor: pointer;
+  transition: flex 0.5s ease-in-out;
+}
+
+.gallery-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+}
+
+.gallery-panel:hover {
+  flex: 3.5;
+}
+
+/* Basic styling for the typewriter effect */
+/* .typewriter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  letter-spacing: 0.15em; 
+  animation: blink-caret 0.75s step-end infinite; 
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+} */
+
+
+.typewriter-container {
+  display: flex;
+  flex-direction: column;
+/*   gap: 10px; */
+}
+
+.typewriter {
+/*   border-right: 2px solid #000;  */
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%; /* Ensure it takes the full width available */
+  max-width: 100%; /* Avoid overflow */
+  height: 1.5em; /* Ensure a fixed height to prevent layout shifts */
+  display: inline-block;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#fading {
+  background: linear-gradient(to bottom, #000000, #003366);
+  height: 100vh; /* Ensure the section covers the viewport height */
+  position: relative;
+  overflow: hidden;
+}
+
+
+.padding-large {
+  padding-left: 7rem; /* Adjust the value as needed */
+}
+
+/*  TESTING */
+/*  TESTING */
+/*  TESTING */
+
+    .carousel-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; /* Adjust as needed */
+      height: 100%; /* Ensure full height for proper spacing */
+    }
+
+    .carousel {
+      display: flex;
+      position: relative;
+    }
+
+    .carousel-item {
+      min-width: 100%;
+      height: 400px; /* Consistent height */
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .carousel-item.active {
+      opacity: 1;
+    }
+
+    .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* Fits image within container */
+      border-radius: 0.75rem;
+/*       box-shadow: 0 0 15px 10px rgba(0, 123, 255, 0.6); */
+    }
+
+
+ .carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 450px; /* Push dots to the bottom */
+  margin-bottom: 10px;
+}
+
+    .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 0 4px;
+      background-color: #bbbbbb;
+      border-radius: 50%;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background-color: #333333;
+    }
+
+
+/*  TESTING */
+/*  TESTING */
+/*  TESTING */
+
+.glow-image {
+    transition: box-shadow 5s ease-in-out; /* Smooth transition for the glow effect */
+    transition: opacity 5s ease-in-out;
+}
+
+.glow-image:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.7); /* Adjust the values and color as needed */
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.9;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.project-image {
+  flex: 1;
+  position: relative;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-card:hover .project-image img {
+  opacity: 1; /* Slightly fade the image on hover */
+}
+
+
+.project-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  text-align: left; /* Center align the text */
+}
+
+/*     .project-card:hover .project-title {
+      opacity: 1; 
+    } */
+
+.project-description {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: left; /* Center the text horizontally */
+  position: relative;
+}
+
+.project-description:hover::before {
+  content: attr(data-highlight);
+  color: white; /* Highlight text color */
+/*   background-color: #f44336; /* W3.CSS red background for the text */ */
+  padding: 2px 4px;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.project-description p {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+@media (max-width: 1001px) {
+  header.w3-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .video-container {
+    width: 75%;
+  }
+
+  .smaller-image img {
+    max-width: 80%; /* Adjust the size as per your requirement */
+  }
+
+  .medium-image img {
+    max-width: 110%; /* Adjust the size as per your requirement */
+  }
+
+  .anotha-image img,
+  .bulls-image img,
+  .taskone-image img,
+  .tasktwo-image img,
+  .more-image img {
+    max-width: 60%; /* Adjust the size as per your requirement */
+  }
+
+  .image-container img {
+    max-width: 100%;
+  }
+
+  .content-words {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+    .typewriter {
+     font-size: 12px;
+   }
+
+  .project-card {
+    flex-direction: row;
+  }
+
+  .project-image {
+    max-width: 50%;
+  }
+  
+  .padding-large{
+    padding-left: 0rem;
+  }
+  
+  
+  
+     .carousel-item {
+      min-width: 100%;
+      height: 400px; /* Consistent height */
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .carousel-item.active {
+      opacity: 1;
+    }
+
+    .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* Fits image within container */
+      border-radius: 0.75rem;
+    }
+  
+  .carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 330px; /* Push dots to the bottom */
+  margin-bottom: 10px;
+}
+
+    .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 0 4px;
+      background-color: #bbbbbb;
+      border-radius: 50%;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background-color: #333333;
+    } 
+  
+  
+      .vertical-nav {
+        display: none; 
+    }
+  
+}
+
+@media (max-width: 601px) {
+  header.w3-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .responsive-image {
+    max-width: 100%; /* Adjust the size as per your requirement */
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .gallery {
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery-panel {
+    width: calc(50% - 0.5rem);
+    margin-bottom: 1rem;
+  }
+
+  .gallery-panel:last-child {
+    margin-bottom: 0;
+  }
+  
+      .typewriter {
+     font-size: 12px;
+   }
+
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-image {
+    max-width: 100%;
+  }
+ 
+  .padding-large{
+    padding-left: 0rem;
+  }
+  
+  
+       .carousel-item {
+      min-width: 100%;
+      height: 400px; /* Consistent height */
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .carousel-item.active {
+      opacity: 1;
+    }
+
+    .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* Fits image within container */
+      border-radius: 0.75rem;
+    }
+  
+  .carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 330px; /* Push dots to the bottom */
+  margin-bottom: 10px;
+}
+
+    .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 0 4px;
+      background-color: #bbbbbb;
+      border-radius: 50%;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background-color: #333333;
+    } 
+  
+        .vertical-nav {
+        display: none; 
+    }
+  
+}
+
+
